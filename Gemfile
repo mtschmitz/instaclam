@@ -6,6 +6,8 @@ gem 'rails', '4.0.2'
 
 group :development do
   gem 'sqlite3', '1.3.8'
+  gem "rspec", "~> 2.14.1"
+  gem "rspec-rails"
 end
 
 gem 'sass-rails', '4.0.1'
@@ -35,5 +37,8 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+#Include twitter-bootstrap gem for styling
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+
+
+

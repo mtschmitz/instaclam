@@ -52,27 +52,27 @@
 
     <div class="navbar navbar-fluid-top">
       <div class="navbar-inner">
-        <div class="container-fluid">
-          <div class="row">
-              <a class="brand" style="color: lightblue;" href="#">TwitterClone</a>
-          </div>
+        <div class="container">
+            <div class="nav-collapse collapse">
+                <a class="brand" style="color: lightblue;" href="#">TwitterClone</a>
+                <form class="navbar-form pull-right">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Username"/>
+                        <input type="password" class="form-control" placeholder="Password"/>
+                        <span class="input-group-btn">
+                            <button type="submit" class="btn btn-default">Sign In</button>
+                        </span> 
+                    </div>
+                </form>
+            </div>
         </div>
       </div>
     </div>
 
+
     <div class="container-fluid">
       <div class="row-fluid">
-        <div class="span3">
-          <div class="well sidebar-nav">
-            <ul class="nav nav-list">
-              <li class="nav-header">Sidebar</li>
-              <li><%= link_to "Link1", "/path1"  %></li>
-              <li><%= link_to "Link2", "/path2"  %></li>
-              <li><%= link_to "Link3", "/path3"  %></li>
-            </ul>
-          </div><!--/.well -->
-        </div><!--/span-->
-        <div class="span9">
+        <div class="span12">
           <%= bootstrap_flash %>
           <%= yield %>
         </div>
