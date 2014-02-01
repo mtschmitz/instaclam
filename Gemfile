@@ -37,8 +37,12 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
 #Include twitter-bootstrap gem for styling
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+
+#Bcrypt for password hashing
+gem 'bcrypt-ruby','3.1.2'
 
 
 
