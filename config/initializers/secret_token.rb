@@ -1,6 +1,6 @@
 # Be sure to restart your server when you modify this file.
 
-# Your secret key is used for verifying the integrity of signed cookies.
+# Your secret key for verifying the integrity of signed cookies.
 # If you change this key, all old signed cookies will become invalid!
 
 # Make sure the secret is at least 30 characters and all random,
@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-DemoApp::Application.config.secret_key_base = 'cc74ffade762fb6c8be940c37b4be142879394e417eda6c885085cf2bc9a7e0bfc0b2e2a743d3011ab93518e431f7f6d6bad73a4604fdb8b4c9a3dba9f7139f2'
+SampleApp::Application.config.secret_key_base = '54760be5c3c5a5f98c346bc5bef6ae9f87e968c6eb5f470ea1934262e7fe132d1180e22ff93a6e6780303f49a850cb8df3a5286e508a47862ad4fc5c7bf006fe'
